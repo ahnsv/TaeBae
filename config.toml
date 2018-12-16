@@ -38,9 +38,4 @@ publishDir = "docs"
     name = "Blog"
     weight = 100
     identifier = "blog"
-    url = "/TaeBae"
-[[menu.main]]
-    name = "About Me"
-    identifier = "about"
-    weight = 200
     url = "/"
