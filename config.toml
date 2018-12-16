@@ -1,4 +1,4 @@
-baseURL = "http://ahnsv.github.io"
+baseURL = "http://ahnsv.github.io/TaeBae"
 languageCode = "en-us"
 title = "TaeBae"
 theme = "mediumish"
@@ -38,4 +38,4 @@ publishDir = "docs"
     name = "Blog"
     weight = 100
     identifier = "blog"
-    url = "/"
+    url = "/blog"
