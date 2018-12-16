@@ -1,0 +1,46 @@
+baseURL = "http://ahnsv.github.io"
+languageCode = "en-us"
+title = "TaeBae"
+theme = "mediumish"
+copyright = "Sangtae Humphrey Ahn"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+
+[params]
+  logo = "/images/logo.png"
+  description = "the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Tae"
+  thumbnail = "/images/author.png"
+  description = "An aspiring full-stack developer"
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Tae"
+  subtitle = "An aspiring full-stack developer"
+  mdtext = '''
+\#struggles \#devlog \#lifeInGeneral
+'''  
+  alertbar = false
+
+[params.social]
+  github = "ahnsv"
+  linkedin = "humphrey-ahn"
+  medium = ""
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
